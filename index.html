@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Coding Projects</title>
+<style>
+    body {
+        background-color: #191b1c;
+        color: white;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+
+    h1, h2, p {
+        margin-bottom: 10px;
+    }
+
+    .project {
+        margin-bottom: 30px;
+    }
+
+    /* Style the video container */
+    .video-container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    /* Style the iframe inside the video container */
+    .video-container iframe {
+        width: 100%;
+        height: 450px;
+    }
+
+    /* Style the list items with margin-bottom */
+    .features ul li {
+        margin-bottom: 0.9em;
+    }
+</style>
+</head>
+
+<body>
+<h1>Projects</h1>
+
+<div class="project">
+    <h2>VoicedGPT</h2>
+    <p>VoicedGPT is a <b>PyQt5</b> application designed for voice interactions with an AI chatbot.</p>
+
+    <div class="features">
+        <h3>Key Features:</h3>
+        <ul>
+            <li><strong>Speech Recognition:</strong> Converts voice input to text <code>speech_recognition</code></li>
+            <li><strong>Natural Language Processing:</strong> Uses OpenAI's GPT-3.5 model for AI responses <code>requests</code></li>
+            <li><strong>Text-to-Speech:</strong> Converts AI responses to audible speech <code>pyttsx3</code></li>
+            <li><strong>Multithreading:</strong> Efficiently manages concurrent processes <code>threading</code></li>
+            <li><strong>Secure Storage:</strong> Safely stores sensitive information like API keys <code>dotenv</code></li>
+            <li><strong>User-Friendly Interface:</strong> Includes input/output text areas and a pause button <code>PyQt5</code></li>
+        </ul>
+    </div>
+
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LtZZDVQl3vk?si=H_hNc-g9I8JBwFyd" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
+</body>
+</html>
